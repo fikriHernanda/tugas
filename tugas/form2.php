@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-	<link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="styles.css">
-        <script src="js/bootstrap.js"></script>
-</head>
+
 <?php 
 $nama=$_POST['nama'];
 $email=$_POST['email'];
@@ -14,8 +7,16 @@ $alasan = $_POST['check'];
 $pilihan=$_POST['optionsRadios']; 
 $dekripsi =$_POST['deskripsi'];
 $kurir =$_POST['Kurir']; 
-
 ?>
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="styles.css">
+        <script src="js/bootstrap.js"></script>
+</head>
+
 <body style="background-image: url('pattern.jpg');" >
 <div class=" atas col-md-12">
 	<h3 style="text-align: center;">Form Pengajuan Komplain Pengembalian Barang</h3>
@@ -33,9 +34,7 @@ $kurir =$_POST['Kurir'];
   			<tr>
   				<td>Email </td>
   				<td> : </td>
-				  <td><?php  echo $email; ?>
-				  
-				  </td>
+				  <td><?php  echo $email; ?></td>
   			</tr>
   			<tr>
   				<td>Nomor Order </td>
